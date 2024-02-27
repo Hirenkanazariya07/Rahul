@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.ind-con{
+    background-color: black;
+}
+/* navbar started  */
+
+.topnav{
+    color: turquoise;
+    background-color: black;
+    text-decoration: none;
+    position: fixed;
+    width :100%;
+    margin-bottom: 100px;
+}
+.topnav a{
+    text-decoration: none;
+    color: aqua;
+    
+}
+.topnav a:hover{
+    color : red;
+
+}
+/* navbar ended */
+
+/* body image  */
+.main-1{
+    margin-top: 30px;
+}
+    .main-img > img{
+        height: fit-content;
+        width: fit-content;
+    }
+/* end body image  */
+/* watch headding  */
+
+.fation-heading h1{
+   color:aqua ;
+   font-size: 100px;
+   font-weight: bolder;
+   padding-left: 80px;
+   padding-top: 80px;
+   
+}
+.fation-heading > h1:hover{
+    transition: 400ms;
+    color: rgb(0, 255, 136);  
+}
+/* headding bottom side button  */
+.main-btn{
+    background-color: black;
+    color: aqua;
+    border-radius: 3px;
+    border-color:aqua;
+    height:30px;
+    width: 140px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.main-btn:hover{
+    transition: 400ms;
+    color: black;
+    background-color: aqua; 
+}
+/* hedding bottom side botton ended  */
+/* watch headding end  */
+
+
+
+/* POPULAR HEADDING STARTED  */
+.popular{
+    background-color: rgb(4, 4, 70);
+    color: aqua;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* POPULAR HEADDING END  */
+
+
+/* ---------------------------------------------contact.php page-----------------------------  */
+
+    .contact-form{
+       border: 1px solid black;
+        position: absolute;
+        margin-top: 130px;
+    }
+    .contact-form h1{
+        background-color:black;
+        color: aqua;
+        text-align: center;
+        padding: 4px;
+    }
+
+/* -----------------------------------------end contact form----------------------------------  */
+
+/* products page started  */
+    .prod{
+        position: relative;
+        justify-content: center;
+        margin-top: 100px;
+        display: block;
+    }
+ /* products page ended  */
+
+ /* about page start  */
+
+.aboutheadding{
+    font-weight: bolder;
+    font-size: medium;
+}
+
+ /* about page ended  */
+
+/* footer start  */
+.footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+/* footer ended  */
